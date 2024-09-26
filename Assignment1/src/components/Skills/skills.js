@@ -3,7 +3,7 @@ import './skills.css';
 import UIDesign from '../../asstes/ui-design.png';
 import DataBase from '../../asstes/SQL.png';
 import AppDevelop from '../../asstes/CSharp.png';
-
+/*<!--Yuk Yu Chung Student Number:301394841-->*/
 const Skills = () => {
     return(
         <section id='skills'>

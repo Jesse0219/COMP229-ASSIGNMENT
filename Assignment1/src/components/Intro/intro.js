@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import bg from '../../asstes/bg.png';
 import { Link } from 'react-scroll';
-
+/*<!--Yuk Yu Chung Student Number:301394841-->*/
 const Intro = () => {
     return(
         <section id="intro">

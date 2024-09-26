@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import Aboutme from '../../asstes/aboutme.jpg';
 import ResumePDF from '../../asstes/Resume.pdf';
+/*<!--Yuk Yu Chung Student Number:301394841-->*/
 const AboutMe = () => {
     return (
         <section id='aboutme'>

@@ -1,3 +1,4 @@
+/*<!--Yuk Yu Chung Student Number:301394841-->*/
 #contactPage {
     min-height: calc(100vh - 4rem);
     width: 100vw;
@@ -59,7 +60,7 @@
 
 }
 
-.name, .email, .msg{
+.name, .email, .msg,.phone{
     font-size: medium;
     width: 100%;
     max-width: 40rem;

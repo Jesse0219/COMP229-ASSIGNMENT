@@ -3,6 +3,7 @@ import './works.css';
 import Portfolio1 from '../../asstes/Portfolio-1.png';
 import Portfolio2 from '../../asstes/Portfolio-2.png';
 import Portfolio3 from '../../asstes/Portfolio-3.png';
+/*<!--Yuk Yu Chung Student Number:301394841-->*/
 const Works =() => {
     return(
         <section id='works'>
@@ -22,7 +23,9 @@ const Works =() => {
                     <p className="projectDesc">This is an informational website about climate change issues, highlighting key environmental challenges and educational resources.</p>
                 </div>
             </div>
-            <button className="workBtn">See More</button>
+            <a href="http://studentweb.cencol.ca/ychung38/" target="_blank" rel="studentweb">
+             <button className="workBtn">See More</button>
+            </a>
         </section>
     );
 }

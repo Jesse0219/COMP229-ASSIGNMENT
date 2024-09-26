@@ -5,7 +5,7 @@ import BOC from '../../asstes/BOC.png';
 import HS from '../../asstes/HS.png';
 import SCB from '../../asstes/SCB.jpg';
 import emailjs from '@emailjs/browser';
-
+/*<!--Yuk Yu Chung Student Number:301394841-->*/
 const Contact =() => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -46,6 +46,7 @@ const Contact =() => {
                 <span className="contactDesc">Please fill out the form below to discuss any work opportunities</span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder='Your Name' name='your_name' />
+                    <input type="text" className="phone" placeholder='Your Contact Number' name='your_number' />
                     <input type="email" className="email" placeholder='Your Email' name='your_email' />
                     <textarea className="msg" name="message" rows="5" placeholder='Your Message'></textarea>
                     <button type="submit" value="send" className="submitBtn">Submit</button>
